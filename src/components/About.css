@@ -5,6 +5,7 @@
     padding: 0;
     background-color: #61B4E7;
     min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 

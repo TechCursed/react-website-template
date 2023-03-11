@@ -6,8 +6,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Home() {
     
   return (
-   
-    <div class="container-fluid">
+
+    <div className='home'>
+
+<div class="container-fluid">
 
     <div class="row">
 
@@ -34,6 +36,10 @@ function Home() {
 
     </div>
   </div>
+  
+    </div>
+   
+    
    
   )
 }
