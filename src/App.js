@@ -19,7 +19,9 @@ function App() {
       
     <Router>
       <AppNavbar />
-      {/* <Home /> */}
+      <Home /> 
+      <About />
+    
       {/* <About /> */}
       <Routes>
         <Route path = "/home" element = { < Home /> } />

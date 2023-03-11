@@ -1,14 +1,79 @@
-.containerAbout{
-    margin: 0%;
-    background-color: #60B5E8;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Serif+Lao&display=swap');
+
+.about{
+    margin: 0;
+    padding: 0;
+    background-color: #61B4E7;
+    min-height: 100vh;
 }
 
 
-.colmn-1 h1{
+.left{
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
+    padding: 0;
+} 
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 0;    
 }
 
-.colmn-2 img{
-    margin-top: 20px;
-    max-width: 70%;
+h1{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 60px; 
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(255, 255, 255);
 }
+
+/* h3{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px; 
+    font-family: 'Fjalla One', sans-serif;
+    /* font-family: 'Noto Serif Lao', serif; */
+    /* color: rgb(255, 255, 255); */
+/* } */ 
+
+/* p{
+    text-align: left;
+    margin-left: 20px;  
+    margin-top: 20px;   
+} */
+
+/* .home-button{
+    text-align: left;
+    margin-left: 20px;  
+    margin-top: 20px;  
+    text-emphasis: bold;
+} */
+
+/* animated class */
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+/* animation keyframes */
+@-webkit-keyframes up-down {
+   0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+  @keyframes up-down {
+    0% {
+         transform: translateY(10px);
+     }
+ 
+     100% {
+         transform: translateY(-10px);
+     }
+ }
