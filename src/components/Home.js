@@ -27,7 +27,7 @@ function Home() {
       <div class="col-sm-6">
          
         <div className="right">
-        <img src={backgroundHome} alt="bg"></img>
+        <img src={backgroundHome} alt="bg" className='animated'></img>
         </div>
         
       </div>
