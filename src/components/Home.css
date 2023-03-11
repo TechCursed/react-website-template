@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Serif+Lao&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -24,12 +26,17 @@ h1{
     text-align: left;
     margin-left: 20px;
     margin-top: 60px; 
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
 h3{
     text-align: left;
     margin-left: 20px;
     margin-top: 40px; 
+    font-family: 'Fjalla One', sans-serif;
+    /* font-family: 'Noto Serif Lao', serif; */
+    color: rgb(255, 255, 255);
 }
 
 /* p{
@@ -42,4 +49,5 @@ h3{
     text-align: left;
     margin-left: 20px;  
     margin-top: 20px;  
+    text-emphasis: bold;
 }
