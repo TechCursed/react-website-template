@@ -11,30 +11,48 @@
 .left{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 0;
 } 
 
 .right{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 0;    
 }
 
 h1{
     text-align: left;
     margin-right: 20px;
-    margin-top: 40px; 
+    /* margin-top: 40px;  */
     font-family: 'Fjalla One', sans-serif;
     color: #3C3B3E;
 }
+
+h2{
+    margin-top: 10px;
+    margin-left: 20px;  
+    font-family: 'Fjalla One', sans-serif;
+    color: #3C3B3E;
+   }
+
+ .details{
+    display: inline-block;
+ }
+
+ .details h4{
+    display: inline-block;
+    /* margin-top: 20px; */
+    margin-left: 20px;  
+    color: #FFFFFF;
+ }
 
 
 p{
     text-align: left;
     margin-left: 20px;  
-    margin-top: 20px;  
+    /* margin-top: 20px;   */
     width: 80%; 
     color: #FFFFFF;
     font-family: 'Merriweather Sans', sans-serif;
@@ -67,20 +85,3 @@ p{
      }
  }
 
-   h2{
-    margin-top: 20px;
-    margin-left: 20px;  
-    font-family: 'Fjalla One', sans-serif;
-    color: #3C3B3E;
-   }
-
- .details{
-    display: inline-block;
- }
-
- .details h4{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 20px;  
-    color: #FFFFFF;
- }
