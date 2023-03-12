@@ -16,7 +16,7 @@ function Home() {
       <div class="col-sm-6">
         <div className='left'>
         <h1>Thanks for checking out this react website, <br></br> You're awesome.!  </h1>
-        <h3>Let's build great stuff together.</h3>
+        <h3>Let's build great stuff together. 🚀 </h3>
         {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
         </div>
 

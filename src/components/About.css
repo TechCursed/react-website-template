@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Serif+Lao&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather+Sans:ital@1&family=Noto+Serif+Lao&display=swap');
 .about{
     margin: 0;
     padding: 0;
@@ -25,33 +24,22 @@
 
 h1{
     text-align: left;
-    margin-left: 20px;
-    margin-top: 60px; 
-    font-family: 'Fjalla One', sans-serif;
-    color: rgb(255, 255, 255);
-}
-
-/* h3{
-    text-align: left;
-    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 40px; 
     font-family: 'Fjalla One', sans-serif;
-    /* font-family: 'Noto Serif Lao', serif; */
-    /* color: rgb(255, 255, 255); */
-/* } */ 
+    color: #3C3B3E;
+}
 
-/* p{
-    text-align: left;
-    margin-left: 20px;  
-    margin-top: 20px;   
-} */
 
-/* .home-button{
+p{
     text-align: left;
     margin-left: 20px;  
     margin-top: 20px;  
-    text-emphasis: bold;
-} */
+    width: 80%; 
+    color: #FFFFFF;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
 
 /* animated class */
 .animated{
@@ -77,4 +65,22 @@ h1{
      100% {
          transform: translateY(-10px);
      }
+ }
+
+   h2{
+    margin-top: 20px;
+    margin-left: 20px;  
+    font-family: 'Fjalla One', sans-serif;
+    color: #3C3B3E;
+   }
+
+ .details{
+    display: inline-block;
+ }
+
+ .details h4{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;  
+    color: #FFFFFF;
  }

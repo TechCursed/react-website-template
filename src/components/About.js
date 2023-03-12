@@ -6,35 +6,37 @@ function About() {
 
   return (
 
-  //     <div className="containerAbout">
-  //     <div className="row">
-  //     <div className="col-sm colmn-2">
-  //     <img src = {backgroundAbout} alt="bg" />
-  //     </div>
-  //     <div className="col-sm colmn-1">
-  
-  //     </div>
-  //   </div>
-  // </div>
   <div className='about'>
- <div class="container-fluid">
+  <div class="container-fluid">
 
-<div class="row">
+   <div class="row">
 
-<div class="col-sm-6">
+    <div class="col-sm-6">
      
      <div className="right">
      <img src={backgroundAbout} alt="bg" className='animated'></img>
      </div>
      
-   </div>
-
-  <div class="col-sm-6">
-    <div className='left'>
-    <h1>This is a About section</h1>
-    <p>Experts want the geeks to understand that the bitcoin is easy to use and very soon they will become user friendly. Many have failed to understand that cryptocurrencies needed to be used on a regular basis, as a daily commodity to buy stuff in daily life. Some feel that right now it is not important to make bitcoin quite compulsive in the economy for daily purposes.</p>
-    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
     </div>
+
+    <div class="col-sm-6">
+    <div className='left'>
+    <h1>React is beautiful</h1>
+    <p>I've always developed stuff in vanilla javascript, and the moment I got familiar with react, it was  absolutely a game changer for me, it's a vast library and I'm getting there slowly, one step at a time.</p>
+    <h2>This website use the concepts like</h2>
+
+    <div className='details'>
+    <h4>React-Router-DOM</h4>
+    <h4>React-Bootstrap</h4>
+    <h4>Netlify</h4>
+    </div>
+
+    </div>
+
+    <div className='home-button'>
+        <button type="button" class="btn btn-primary me-2">Know More</button>
+        <button type="button" class="btn btn-secondary">Explore Tools</button>
+        </div>
 
   </div>
 
