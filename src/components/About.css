@@ -58,6 +58,11 @@ p{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+.about-button{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
 /* animated class */
 .animated{

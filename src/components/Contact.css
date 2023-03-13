@@ -1,0 +1,47 @@
+.final{
+    margin: 0%;
+    padding: 0%;
+    background-color: #212529;
+    overflow: hidden;
+}
+
+.final h3{
+   color: gray;
+   text-align: center;
+   margin-bottom: 20px;
+   font-style: italic;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+}
+
+.footList{
+    display: flex;
+    overflow: hidden;
+}
+
+ a{
+    color: gray;
+    text-decoration: none;
+ }
+
+ .footer-para p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    font-size: smaller;
+ }
+
+ .icon-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+ }

@@ -33,7 +33,7 @@ function About() {
 
     </div>
 
-    <div className='home-button'>
+    <div className='about-button'>
         <button type="button" class="btn btn-primary me-2">Know More</button>
         <button type="button" class="btn btn-secondary">Explore Tools</button>
         </div>
