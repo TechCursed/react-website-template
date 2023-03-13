@@ -23,6 +23,7 @@ function App() {
       <Home /> 
       <About />
       <Foot />
+      
       {/* <Product /> */}
     
       {/* <About /> */}
