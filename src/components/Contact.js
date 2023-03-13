@@ -92,7 +92,7 @@ function Contact() {
 <img src={getapp} class="app-img" alt="app" />
 
     <div className='footer-para'>
-        <p>Copyright © 2023 Brand name. All rights reserved. Privacy Policy | Terms of Use | Sales and Refunds | Legal  </p>
+        <p>Copyright © 2023 Brand name. All rights reserved. Privacy Policy | Terms of Use | Sales and Refunds</p>
     </div>
 
 

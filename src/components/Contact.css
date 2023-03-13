@@ -1,15 +1,9 @@
 .final{
     margin: 0%;
     padding: 0%;
+    min-height: 100vh;
     background-color: #212529;
     overflow: hidden;
-}
-
-.final h3{
-   color: gray;
-   text-align: center;
-   /* margin-bottom: 20px; */
-   font-style: italic;
 }
 
 .foot{
@@ -18,6 +12,14 @@
     flex-wrap: wrap;
     text-align: left;
     justify-content: center;
+}
+
+.final h3{
+   color: gray;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 10px;
+   font-style: italic;
 }
 
 .footList{
@@ -30,26 +32,26 @@
     text-decoration: none;
  }
 
- .footer-para {
+ /* .footer-para {
     font-family: 'Courier New', Courier, monospace;
     color: gray;
     font-size: smaller;
     display: flex;
     justify-content: center;
- }
+ } */
 
  .footer-para p{
    font-family: 'Courier New', Courier, monospace;
    width: fit-content;
    overflow: hidden;
    color: gray;
-   width: 80%;
+
  }
 
  .icon-links{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
  }
 
@@ -57,6 +59,7 @@
 
    margin-left: 30%;
    margin-right: auto;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
+   margin-bottom: 30px;
    max-width: 40%;
  }
