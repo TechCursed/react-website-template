@@ -41,10 +41,12 @@
  } */
 
  .footer-para p{
+
    font-family: 'Courier New', Courier, monospace;
    width: fit-content;
    overflow: hidden;
    color: gray;
+   
 
  }
 
