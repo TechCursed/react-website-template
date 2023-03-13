@@ -11,12 +11,10 @@ function Contact() {
   
     <div className='final'>
 
-    <h3>Hope you had fun visiting us,<br></br> you can find us here </h3>
+    {/* <h3>Hope you had fun visiting us,<br></br> you can find us here </h3> */}
+    <h3>Our Social Links</h3>
 
-    <img src={getapp} class="app-img" alt="app" />
-
-
-    
+        
     <div className='icon-links'>
 
     <h3>  <Link to="#">< FaTwitterSquare /> </Link> </h3>
@@ -66,13 +64,13 @@ function Contact() {
         <li><Link to="#">Cookies Settings</Link></li> 
         <li><Link to="#">Plans & Pricing</Link></li> 
         <li><Link to="#">Career Opportunities</Link></li> 
-        <li><Link to="#">Newsletter</Link></li> 
+        {/* <li><Link to="#">Newsletter</Link></li>  */}
 </ul>
 </div>   
 
-
 </div>
 
+<img src={getapp} class="app-img" alt="app" />
 
     <div className='footer-para'>
         <p>Copyright © 2023 Brand name. All rights reserved. Privacy Policy | Terms of Use | Sales and Refunds | Legal  </p>
