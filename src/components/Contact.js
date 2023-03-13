@@ -1,7 +1,10 @@
 import React from 'react'
 import './Contact.css'
+import getapp from '../images/pngegg.png';
+
 
 import { FaTwitterSquare , FaFacebook, FaInstagram, FaYoutube, FaLinkedin,FaWhatsapp, FaGoogle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function Contact() {
   return (
@@ -9,16 +12,20 @@ function Contact() {
     <div className='final'>
 
     <h3>Hope you had fun visiting us,<br></br> you can find us here </h3>
+
+    <img src={getapp} class="app-img" alt="app" />
+
+
     
     <div className='icon-links'>
 
-    <h3>  <a href="#">< FaTwitterSquare /> </a> </h3>
-    <h3>  <a href="#">< FaFacebook /> </a>  </h3>
-    <h3>  <a href="#">< FaInstagram /> </a> </h3>
-    <h3>  <a href="#">< FaYoutube /> </a> </h3>
-    <h3>  <a href="#">< FaLinkedin /> </a> </h3>
-    <h3>  <a href="#">< FaWhatsapp /> </a> </h3>
-    <h3>  <a href="#">< FaGoogle /> </a> </h3>
+    <h3>  <Link to="#">< FaTwitterSquare /> </Link> </h3>
+    <h3>  <Link to="#">< FaFacebook /> </Link>  </h3>
+    <h3>  <Link to="#">< FaInstagram /> </Link> </h3>
+    <h3>  <Link to="#">< FaYoutube /> </Link> </h3>
+    <h3>  <Link to="#">< FaLinkedin /> </Link> </h3>
+    <h3>  <Link to="#">< FaWhatsapp /> </Link> </h3>
+    <h3>  <Link to="#">< FaGoogle /> </Link> </h3>
 
     </div>
 
@@ -30,25 +37,23 @@ function Contact() {
     <div className="footList">
 
     <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Help Center</a></li>  
-        <li><a href="#">Integrations</a></li>   
-        <li><a href="#">Developers</a></li>                 
-           
-        
+        <li><Link to="#">About Us</Link></li> 
+        <li><Link to="#">Contact Us</Link></li> 
+        <li><Link to="#">Developers</Link></li> 
+        <li><Link to="#">Help Center</Link></li> 
+        <li><Link to="#">Integrations</Link></li>                 
     </ul>
-</div>   
+  </div>   
 
 <div className="footList">
 <ul>
-<li><a href="#">Events</a></li> 
-<li><a href="#">Sitemap</a></li>       
-<li><a href="#">Support</a></li>        
-<li><a href="#">Partners</a></li>      
-<li><a href="#">Blog</a></li>            
-         
-        
+
+        <li><Link to="#">Events</Link></li>  
+        <li><Link to="#">Sitemap</Link></li> 
+        <li><Link to="#">Support</Link></li> 
+        <li><Link to="#">Partners</Link></li> 
+        <li><Link to="#">Blog</Link></li> 
+                
 </ul>
 </div>  
 
@@ -56,11 +61,12 @@ function Contact() {
 <ul>
         
         
-        <li><a href="#">Career Opportunities</a></li>  
-        <li><a href="#">Customer Stories</a></li>  
-        <li><a href="#">Cookies Settings</a></li> 
-        <li><a href="#">Plans & Pricing</a></li>                    
-        <li><a href="#">Newsletter</a></li> 
+        <li><Link to="#">Career Opportunities</Link></li>  
+        <li><Link to="#">Customer Stories</Link></li> 
+        <li><Link to="#">Cookies Settings</Link></li> 
+        <li><Link to="#">Plans & Pricing</Link></li> 
+        <li><Link to="#">Career Opportunities</Link></li> 
+        <li><Link to="#">Newsletter</Link></li> 
 </ul>
 </div>   
 

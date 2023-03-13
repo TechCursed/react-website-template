@@ -1,6 +1,7 @@
 .final{
     margin: 0%;
     padding: 0%;
+    min-height: 100vh;
     background-color: #212529;
     overflow: hidden;
 }
@@ -30,13 +31,18 @@
     text-decoration: none;
  }
 
- .footer-para p{
-    display: flex;
-    text-align: center;
-    justify-content: center;
+ .footer-para {
     font-family: 'Courier New', Courier, monospace;
     color: gray;
     font-size: smaller;
+    display: flex;
+    justify-content: center;
+ }
+
+ p{
+   font-family: 'Courier New', Courier, monospace;
+   width: fit-content;
+   overflow: hidden;
  }
 
  .icon-links{
@@ -44,4 +50,11 @@
     justify-content: center;
     margin-bottom: 20px;
 
+ }
+
+ .app-img{
+
+   margin-left: 40%;
+   margin-right: auto;
+   width: 20%;
  }
