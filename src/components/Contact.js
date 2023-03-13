@@ -57,14 +57,33 @@ function Contact() {
 
 <div className="footList">
 <ul>
-        
-        
+
+        <li><Link to="#">Career</Link></li>  
+        <li><Link to="#">Customer</Link></li> 
+        <li><Link to="#">Cookies</Link></li> 
+        <li><Link to="#">Settings</Link></li> 
+        <li><Link to="#">Plans</Link></li> 
+                
+</ul>
+</div> 
+
+<div className="footList">
+<ul> 
+        <li><Link to="#">Stories</Link></li> 
+        <li><Link to="#">Pricing</Link></li> 
+        <li><Link to="#">Partners</Link></li> 
+        <li><Link to="#">Newsletter</Link></li> 
+        <li><Link to="#">Opportunities</Link></li>                 
+</ul>
+</div> 
+
+<div className="footList">
+<ul>
         <li><Link to="#">Career Opportunities</Link></li>  
         <li><Link to="#">Customer Stories</Link></li> 
         <li><Link to="#">Cookies Settings</Link></li> 
         <li><Link to="#">Plans & Pricing</Link></li> 
-        <li><Link to="#">Career Opportunities</Link></li> 
-        {/* <li><Link to="#">Newsletter</Link></li>  */}
+        <li><Link to="#">Newsletter</Link></li> 
 </ul>
 </div>   
 
@@ -74,7 +93,6 @@ function Contact() {
 
     <div className='footer-para'>
         <p>Copyright © 2023 Brand name. All rights reserved. Privacy Policy | Terms of Use | Sales and Refunds | Legal  </p>
-        {/* <p>Copyright © 2023 Brand name. All rights reserved.</p> */}
     </div>
 
 
