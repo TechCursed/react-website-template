@@ -7,7 +7,7 @@ function Home() {
     
   return (
 
-    <div className='home'>
+    <div className='home' id='home'>
 
 <div class="container-fluid">
 
@@ -17,8 +17,7 @@ function Home() {
         <div className='left'>
         <h1>Thanks for checking out this react website, <br></br> You're awesome.!  </h1>
         <h3>Let's build great stuff together. 🚀 </h3>
-        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
-        </div>
+      </div>
 
         <div className='home-button'>
         <button type="button" class="btn btn-primary me-2">Watch Demo</button>
@@ -37,7 +36,7 @@ function Home() {
     </div>
   </div>
   
-    </div>
+</div>
    
     
    

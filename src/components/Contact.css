@@ -1,9 +1,11 @@
 .final{
+
     margin: 0%;
     padding: 0%;
     min-height: 100vh;
     background-color: #212529;
     overflow: hidden;
+    
 }
 
 .foot{
@@ -46,11 +48,10 @@
    width: fit-content;
    overflow: hidden;
    color: gray;
-   
-
  }
 
  .icon-links{
+
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
@@ -64,4 +65,5 @@
    margin-bottom: 30px;
    margin-bottom: 30px;
    max-width: 40%;
+
  }

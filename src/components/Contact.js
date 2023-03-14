@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 function Contact() {
   return (
   
-    <div className='final'>
+    <div className='final' id='contact'>
 
     {/* <h3>Hope you had fun visiting us,<br></br> you can find us here </h3> */}
     <h3>Our Social Links</h3>

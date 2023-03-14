@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Merriweather+Sans:ital@1&family=Noto+Serif+Lao&display=swap');
 
 .home{
+
     margin: 0;
     padding: 0;
     background-color: #697BDE;
     min-height: 100vh;
     scroll-behavior: smooth;
+
 }
 
 
 .left{
+
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -17,34 +20,42 @@
 } 
 
 .right{
+
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     padding: 0;    
     overflow: hidden;
+
 }
 
 h1{
+
     text-align: left;
     margin-left: 20px;
     margin-top: 60px; 
     font-family: 'Fjalla One', sans-serif;
     color: rgb(255, 255, 255);
+
 }
 
 h3{
+
     text-align: left;
     margin-left: 20px;
     margin-top: 40px; 
     font-family: 'Fjalla One', sans-serif;
     color: rgb(255, 255, 255);
+
 }
 
 .home-button{
+
     text-align: left;
     margin-left: 20px;  
     margin-top: 20px;  
     text-emphasis: bold;
+    
 }
 
 /* animated class */

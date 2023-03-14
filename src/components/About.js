@@ -6,7 +6,7 @@ function About() {
 
   return (
 
-  <div className='about'>
+  <div className='about' id='about'>
   <div class="container-fluid">
 
    <div class="row">
