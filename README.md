@@ -4,6 +4,13 @@ a template for a basic react website, a single page website which has different 
 
 Live Here : https://cool-starship-99b4c1.netlify.app/
 
-<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/Home.jpg" width="20%" height="auto">
-<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/About.jpg" width="20%" height="auto">
-<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/Contact.jpg" width="20%" height="auto">
+
+<div>
+<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/Home.jpg">
+<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/About.jpg">
+<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/Contact.jpg">  
+</div>
+
+<style>
+<./style>
+
