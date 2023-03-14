@@ -6,9 +6,9 @@ Live Here : https://cool-starship-99b4c1.netlify.app/
 
 
 <div>
-<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/Home.jpg">
-<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/About.jpg">
-<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/Contact.jpg">  
+<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/home_.jpg">
+<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/about_.jpg">
+<img src = "https://github.com/TechCursed/react-website-template/blob/master/demo/contact_.jpg">  
 </div>
 
 <style>
