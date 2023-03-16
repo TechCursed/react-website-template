@@ -15,7 +15,7 @@ function Home() {
 
       <div class="col-sm-6">
         <div className='left'>
-        <h1>Thanks for checking out this react website, <br></br> You're awesome.!  </h1>
+        <h1>Thanks for checking out this react website, <br></br> You're<span className='span-h1'> awesome.!</span> </h1>
         <h3>Let's build great stuff together. 🚀 </h3>
       </div>
 
