@@ -1,0 +1,25 @@
+.Testimonials{
+    display: flex;
+    flex-direction: row;
+    background-color: #697BDE;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.card-layout{
+
+    width: 80%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-title{
+    color: aqua;
+    text-align: center;
+}
+
+.card{
+    background-color: #212529;
+}

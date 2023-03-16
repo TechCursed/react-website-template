@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import Testimonials from './Testimonials';
 
 
 
@@ -13,6 +14,7 @@ function AllComponents() {
     <div className='AllComponents'>
      <Home />
      <About />
+     <Testimonials />     
      <Contact />
 
     </div>
